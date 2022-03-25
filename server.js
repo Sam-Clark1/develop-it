@@ -1,6 +1,5 @@
 const express = require('express');
 const apiRoutes = require('./routes/apiRoutes');
-const inputCheck = require('./utils/inputCheck');
 const db = require('./db/connection');
 
 require('dotenv').config();
